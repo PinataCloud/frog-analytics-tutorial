@@ -21,7 +21,7 @@ const app = new Frog<State>({
   // hubApiUrl: "https://hub.pinata.cloud"
 });
 
-app.use("/", pinataFdk.analyticsMiddleware({ frameId: "frog-refactor"}));
+app.use("/", pinataFdk.analyticsMiddleware({ frameId: "frog-refactor-2", customId: "frog-refactor-custom-id-2"}));
 
 // Uncomment to use Edge Runtime
 // export const runtime = 'edge'
